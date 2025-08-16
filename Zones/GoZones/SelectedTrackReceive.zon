@@ -1,0 +1,21 @@
+Zone SelectedTrackReceive
+    
+    Display1Upper|               TrackReceivePrePostDisplay
+    Display1Lower|               TrackReceiveNameDisplay
+
+	Rotary|                     TrackReceivePan
+
+    RotaryPush|                 TrackReceivePrePost
+
+    RecordArm|                  NoAction
+    Solo|                       NoAction
+    Mute|                       TrackReceiveMute
+    Select|                     NoAction
+
+  
+    Fader|                      TrackReceiveVolume
+
+    Left                        Bank SelectedTrackReceive -1
+    Right                       Bank SelectedTrackReceive 1
+
+ZoneEnd

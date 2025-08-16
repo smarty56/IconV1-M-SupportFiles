@@ -1,0 +1,5 @@
+Zone FXPrologue
+     OnZoneActivation    SetXTouchDisplayColors Cyan
+     OnZoneDeactivation  RestoreXTouchDisplayColors
+     SEL_TRK_FXMENU              ClearFXSlot
+ZoneEnd

@@ -1,0 +1,24 @@
+Zone SelectedTrackSend
+
+	Display1Upper|				TrackSendPrePostDisplay
+	Shift+Display1Upper|		TrackSendPanDisplay
+	Alt+Display1Upper|			TrackSendVolumeDisplay
+	FaderTouch+Display1Upper|	TrackSendVolumeDisplay
+
+	Display1Lower|				TrackSendNameDisplay
+
+	Rotary|						TrackSendPan
+
+	RotaryPush|					TrackSendPrePost
+
+	Fader|						TrackSendVolume
+
+	Left						Bank SelectedTrackSend -1
+	Right						Bank SelectedTrackSend 1
+
+	RecordArm|					NoAction
+	Solo|						NoAction
+	Mute|						TrackSendMute
+	Select|						NoAction
+
+ZoneEnd

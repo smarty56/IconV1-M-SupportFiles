@@ -1,0 +1,53 @@
+ Zone Track
+ 
+	VUMeter|                   TrackOutputMeterMaxPeakLR MeterMode=IconV1M   
+
+	Display1Upper|             TrackPanAutoLeftDisplay
+	Toggle+Display1Upper|      TrackPanAutoRightDisplay	
+	
+    Display1Lower|             TrackNameDisplay { Track }
+	Alt+Display1Lower|         TrackAutoModeDisplay  
+	
+	Shift+Display1Lower|       TrackInputMonitorDisplay	
+	Control+Display1Lower|     TrackInvertPolarityDisplay	
+
+
+	Display2Upper|             TrackNameDisplay
+
+    Display2Lower|             TrackVolumeDisplay
+  
+	Fader|                     TrackVolume
+	//Fader|					   TrackUniqueSelect OR Touch+Fader| TrackUniqueSelect
+	Flip+Fader|	               TrackPan
+  
+	Rotary|                    TrackPanAutoLeft RingStyle=BoostCut  
+	Toggle+Rotary|             TrackPanAutoRight RingStyle=BoostCut
+	Flip+Rotary|	          TrackVolume
+	
+	RotaryPush|                ToggleChannel
+	Shift+RotaryPush|          TrackPan [ 0.5 ]
+    Option+RotaryPush|         TrackPanWidth [ 1.0 ]
+	Alt+RotaryPush| 		   CycleTrackInputMonitor
+        
+    RecordArm|                 TrackRecordArm
+    Shift+RecordArm|           CycleTrackInputMonitor
+	Alt+RecordArm|           CycleTrackAutoMode
+    
+	Solo|                      TrackSolo
+	Shift+Solo|              ClearAllSolo
+	
+	Mute|                      TrackMute
+	Shift+Mute|              Reaper 40339 Feedback=No            // Track: Unmute all tracks	
+    
+	Select|                    TrackUniqueSelect
+    Shift+Select|              TrackRangeSelect 		//NoFeedback    
+    Control+Select|            TrackSelect 				//NoFeedback
+	
+	//Review this.... could be useful
+	//Hold+Select|             TrackVolume [ 0.760 ] Feedback=No   // Reset track volume to unity
+	// icon (and xtouch?)didn't like this 
+	//From the forum ....
+	//This works in the Exp build on Windows at least...Code: Hold+Select| TrackVolume [ 0.760 ] Feedback=No // Reset track volume to unity ...
+	//"... in the production build, this would be the syntax... Code:: Select| TrackVolume [ 0.760 ] HoldDelay=1000 Feedback=No // Reset track volume to unity"
+    
+ZoneEnd

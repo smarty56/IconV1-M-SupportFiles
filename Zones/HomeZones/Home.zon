@@ -1,0 +1,89 @@
+//Based on XTouch 
+Zone Home
+    OnInitialization	ToggleRestrictTextLength 7
+    //OnInitialization 	ToggleEnableFocusedFXMapping
+    OnInitialization    ToggleUseLocalModifiers
+    OnInitialization    SetLatchTime 100
+    
+	IncludedZones
+		Buttons
+		Track
+		MasterTrack
+	IncludedZonesEnd
+	
+   SubZones
+        Zoom
+    SubZonesEnd	
+
+//NAVIGATION BUTTONS (Note sure what the "SelectedTrack" achieves)
+	BankLeft 		Bank Track -8
+	BankLeft		Bank SelectedTrack -8
+	BankRight 		Bank Track 8
+	BankRight		Bank SelectedTrack 8
+
+	ChannelLeft		Bank Track -1
+	ChannelLeft		Bank SelectedTrack -1
+	ChannelRight	Bank Track 1
+	ChannelRight	Bank SelectedTrack 1
+	
+    Shift+ChannelLeft           Bank Track -999
+    Shift+ChannelLeft           Bank SelectedTrack -999
+    Shift+ChannelRight          Bank Track 999
+    Shift+ChannelRight          Bank SelectedTrack 999
+	
+
+	Flip Flip
+
+//AUTOMATION BUTTONS
+	Read               	TrackAutoMode 1
+	Write              	TrackAutoMode 3
+	Trim               	TrackAutoMode 0
+	Touch              	TrackAutoMode 2
+	Latch              	TrackAutoMode 4
+	Group              	TrackAutoMode 5
+	Global+Read    		GlobalAutoMode 1
+	Global+Write  	 	GlobalAutoMode 3
+	Global+Trim   	 	GlobalAutoMode 0
+	Global+Touch 	  	GlobalAutoMode 2
+	Global+Latch 	  	GlobalAutoMode 4  
+	Global+Group 	  	GlobalAutoMode 5   
+	
+	//Shift+Read                  Reaper 40876                // Global automation override: No override (set automation modes per track)    	
+
+//TRANSPORT & CYCLE BUTTONS 
+	Rewind Rewind
+	FastForward FastForward
+	Stop 	Stop
+	Hold+Stop				Reaper 40042 Feedback=No				// Go to start of project
+	Play 	Play
+	Record Record
+
+	Cycle					CycleTimeline
+
+
+//JOG WHEEL NAVIGATION
+	//Zoom		Zoom 	//THIS NEEDS TO GO TO a "Zoom" zone where the actions of the JogWhell can be redifined Zoom Reaper 40113 // ZOOM SELECTED TRACK	
+	Zoom GoSubZone Zoom
+
+    Up                          Reaper _XENAKIOS_TVPAGEUP   // Xenakios/SWS: Scroll track view up (page)
+    Down                        Reaper _XENAKIOS_TVPAGEDOWN // Xenakios-SWS: Scroll track view down 
+    Left                        Reaper 40842                // Move edit cursor back one beat (no seek)
+    Right                       Reaper 40841                // Move edit cursor forward one beat (no seek)
+
+	//Try this at some point...
+	//JogWheel                         MoveEditCursor Bar                                                          
+	Decrease+JogWheel		   	Reaper 40840				// Move edit cursor back one measure (no seek)  
+	Increase+JogWheel		   	Reaper 40839				// Move edit cursor forward one measure (no seek)
+
+//Review these
+Shift+Increase+JogWheel Reaper 40103 // CREATE JOG TIME SEL R  //Time selection: Move cursor right, creating time selection
+Shift+Decrease+JogWheel Reaper 40102 // CREATE JOG TIME SEL L
+Alt+Increase+JogWheel Reaper 40105 // SCRUB
+Alt+Decrease+JogWheel Reaper 40104 // SCRUB
+
+// Footswitches
+    Footswitch1                 Reaper 40003                // Transport: Start/stop recording at next measure
+    Footswitch2                 Reaper 40328                // Transport: Play/stop (move edit cursor on stop)
+
+
+ZoneEnd

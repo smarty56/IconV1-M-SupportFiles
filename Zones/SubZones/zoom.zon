@@ -1,0 +1,12 @@
+Zone Zoom
+	Up 		Reaper 40111 	//HoldRepeatInterval=50  // ZOOM IN VERTICAL
+	Down 	Reaper 40112 	//HoldRepeatInterval=50  //ZOOM OUT VERTICAL
+	
+	//Left 	Reaper _SN_FOCUS_MIDI_EDITOR
+	Left 	Reaper 1011 	//HoldRepeatInterval=50  // ZOOM OUT HORIZONTAL
+	
+	//Right 	Reaper _SN_FOCUS_MIDI_EDITOR
+	Right 	Reaper 1012 	//HoldRepeatInterval=50  // ZOOM IN HORIZONTAL
+   
+    Zoom	LeaveSubZone
+ZoneEnd

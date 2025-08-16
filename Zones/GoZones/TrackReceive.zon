@@ -1,0 +1,17 @@
+Zone TrackReceive
+
+	Display1Upper|               FixedTextDisplay "TrkRcv"
+	Touch+Display1Upper|         TrackReceiveVolumeDisplay
+	
+	Display1Lower|               TrackReceiveNameDisplay
+
+	Mute|                       TrackReceiveMute
+	Rotary|                     TrackReceivePan			RingStyle=BoostCut
+	Fader|                      TrackReceiveVolume
+	Up                          Bank TrackReceive -1
+	Down                        Bank TrackReceive 1
+
+	RecordArm|                  NoAction
+	Solo|                       NoAction
+	Select|                     NoAction
+ZoneEnd

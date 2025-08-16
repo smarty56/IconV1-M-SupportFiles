@@ -1,0 +1,34 @@
+Zone SelectedTrackTCPFX
+	Display1Upper1         TCPFXParamNameDisplay 0
+	Display1Lower1         TCPFXParamValueDisplay 0
+	Fader1                TCPFXParam 0
+	Rotary1               NoAction
+	Display1Upper2         TCPFXParamNameDisplay 1
+	Display1Lower2         TCPFXParamValueDisplay 1
+	Fader2                TCPFXParam 1
+	Rotary2               NoAction
+	Display1Upper3         TCPFXParamNameDisplay 2
+	Display1Lower3         TCPFXParamValueDisplay 2
+	Fader3                TCPFXParam 2
+	Rotary3               NoAction
+	Display1Upper4         TCPFXParamNameDisplay 3
+	Display1Lower4         TCPFXParamValueDisplay 3
+	Fader4                TCPFXParam 3
+	Rotary4               NoAction
+	Display1Upper5         TCPFXParamNameDisplay 4
+	Display1Lower5         TCPFXParamValueDisplay 4
+	Fader5                TCPFXParam 4
+	Rotary5               NoAction
+	Display1Upper6         TCPFXParamNameDisplay 5
+	Display1Lower6         TCPFXParamValueDisplay 5
+	Fader6                TCPFXParam 5
+	Rotary6               NoAction
+	Display1Upper7         TCPFXParamNameDisplay 6
+	Display1Lower7         TCPFXParamValueDisplay 6
+	Fader7                TCPFXParam 6
+	Rotary7               NoAction
+	Display1Upper8         TCPFXParamNameDisplay 7
+	Display1Lower8         TCPFXParamValueDisplay 7
+	Fader8                TCPFXParam 7
+	Rotary8               NoAction
+ZoneEnd

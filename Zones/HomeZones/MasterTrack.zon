@@ -1,0 +1,5 @@
+Zone MasterTrack
+    MasterChannelMeterLeft TrackOutputMeter 0 
+    MasterChannelMeterRight TrackOutputMeter 1 
+    MasterFader                 TrackVolume
+ZoneEnd

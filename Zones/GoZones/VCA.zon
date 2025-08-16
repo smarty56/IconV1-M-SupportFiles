@@ -1,0 +1,48 @@
+Zone VCA
+
+	VUMeter|                    TrackOutputMeterMaxPeakLR
+
+	Display1Upper|               TrackNameDisplay { Track }
+
+	Display1Lower|               TrackPanAutoLeftDisplay 
+	Touch+Display1Lower|         TrackVolumeDisplay
+	Option+Display1Lower|        TrackVCALeaderDisplay
+	Toggle+Display1Lower|        TrackPanAutoRightDisplay
+	Option+Display1Lower|        TrackInputMonitorDisplay   
+	Control+Display1Lower|       TrackInvertPolarityDisplay
+	Alt+Display1Lower|           TrackAutoModeDisplay
+
+	Fader|                      TrackVolume 
+	Flip+Fader|                 TrackPan 
+
+	Rotary|                     TrackPanAutoLeft RingStyle=Dot
+	Toggle+Rotary|              TrackPanAutoRight RingStyle=Dot
+
+
+	RotaryPush|                 ToggleChannel
+	Shift+RotaryPush|           TrackPan [ 0.5 ]                    // Reset track pan to center
+	Option+RotaryPush|          TrackPanWidth [ 1.0 ]               // Reset track width to maximum
+
+	RecordArm|                  TrackRecordArm
+	Option+RecordArm|           CycleTrackInputMonitor  
+	Control+RecordArm|          TrackInvertPolarity         
+	Alt+RecordArm|              CycleTrackAutoMode
+
+
+	Solo|                       TrackSolo
+	Shift+Solo|                 ClearAllSolo
+
+	Mute|                       TrackMute
+	Shift+Mute|                 Reaper 40339 Feedback=No            // Track: Unmute all tracks
+
+	Select|                     TrackUniqueSelect
+	Shift+Select|               TrackRangeSelect    
+	Control+Select|             TrackSelect
+	Hold+Select|                TrackToggleVCASpill Feedback=No
+
+	BankLeft                    Bank Folder -8
+	BankRight                   Bank Folder 8
+	ChannelLeft                 Bank Folder -1
+	ChannelRight                Bank Folder 1
+
+ZoneEnd

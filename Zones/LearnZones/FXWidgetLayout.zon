@@ -1,0 +1,15 @@
+Zone FXWidgetLayout
+	Fader FXParam
+	Display1Upper FixedTextDisplay
+	Display1Lower FXParamValueDisplay
+ZoneEnd
+
+#WidgetType Fader
+#WidgetType RotaryPush
+#WidgetType Rotary
+#DisplayRow Display1Upper
+#DisplayRow Display1Lower
+#RingStyle Dot
+#RingStyle Fill
+#RingStyle BoostCut
+#RingStyle Spread

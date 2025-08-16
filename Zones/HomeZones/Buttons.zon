@@ -1,0 +1,109 @@
+Zone Buttons
+
+///NOTES NOTES NOTES NOTES NOTES NOTES NOTES NOTES NOTES NOTES 
+//1. V3 to V7 Change GoZone to GoZone
+//2a) Use named widgets for specific CSI Actions e.g. FOLDER GoZone Foilder
+//2b) Use general widgets for Reaper Actions which may change. e.g. Midi_3E Reaper _S&M_TOGLFXCHAIN	//SWS/S&M: Toggle show FX chain windows for selected tracks
+//2c) Use Hotkeys for things that do not have a state e.g. 
+//3. There is no "AssignmentDisplay	GlobalModeDisplay" on the V1-M
+//4. Not available in V7 "RemapAutoZone"
+
+	TimeDisplay			MCUTimeDisplay			//these are not actual buttons
+	CYCLE_TIME_DISP		CycleTimeDisplayModes
+
+	//GOZONE
+	HOME 					GoHome						//HOME		Reaper _RS56119a80679ef60e7ec876886fb50967700fffd2	//Script: CSI-OnButtonHOME.lua
+	FOLDER					GoZone Folder 				//FOLDER	Reaper _RSe8589905351f8341cd1fd7162d86611a3913f6e0	Feedback=No //Script: CSI-OnButtonFOLDER.lua
+	TRACK					GoZone SelectedTracks 		//TRACK		Reaper	_RS1cb5ba41be214770f4fbeb1f94e4c661db7d48c9	//Script: CSI-OnButtonTrack.lua
+	SEL_TRK_REC				GoZone SelectedTrackReceive	//SEL_TRK_REC	Reaper _RS688389a75ebe7723e51934b5603a465d4803702c	//OnButtonEq
+	Global+SEL_TRK_REC		GoZone TrackReceive
+	SEL_TRK_SND				GoZone SelectedTrackSend	//SEL_TRK_SND		Reaper _RS940ba34d1a4d9b734dd020ae37d3b2233b2bfdbe	//OnButtonSend
+	Global+SEL_TRK_SND		GoZone TrackSend			//SEL_TRK_FXMENU	Reaper _RSbb18507e60bebf012cc1e2dcb8587658ce0eac37	//OnButtonPlugin
+	SEL_TRK_FXMENU			GoZone SelectedTrackFXMenu
+	Global+SEL_TRK_FXMENU	GoZone TrackFXMenu
+
+	TOG_MIXER 				Reaper 40078 		//Toggle Mixer visible
+	Global+TOG_MIXER		Reaper _RSeff2521a285c71903b4292401c311afda0357427	//Script: CSI-ToggleShowMasterTrackAndVolumeEnvelope.lua
+
+	GLOBAL	 				Global
+
+	Midi_Hex36				NoAction
+	Midi_Hex37				NoAction
+	Midi_Hex38				NoAction
+	Midi_Hex39				NoAction
+	Midi_Hex3a				NoAction
+	Midi_Hex3b				NoAction
+	Midi_Hex3c				NoAction
+	Midi_Hex3d				NoAction
+	Midi_Hex3e	 			Reaper _S&M_TOGLFXCHAIN	//SWS/S&M: Toggle show FX chain windows for selected tracks
+	Midi_Hex3f				NoAction
+	Midi_Hex40				NoAction
+	Midi_Hex41				NoAction
+	Midi_Hex42				Reaper 40271 			//View: Show FX browser window
+	Midi_Hex43				Reaper _S&M_WNTGL5		//SWS/S&M: Toggle show all floating FX for selected tracks
+	Midi_Hex44				GoZone MasterTrackFXMenu
+	InvertFB+Midi_Hex45		Reaper 41884			//Monitoring FX: Toggle bypass NOTE THE "InvertFB"
+
+	Midi_Hex71		Reaper 40906	//Track Manager
+	Midi_Hex72		NoAction
+	Midi_Hex73		NoAction
+	Midi_Hex74		NoAction
+	Midi_Hex75		NoAction
+	Midi_Hex76		NoAction
+	Midi_Hex77		NoAction
+	Midi_Hex78		NoAction
+	Midi_Hex79		NoAction
+	Midi_Hex7a		NoAction
+	Midi_Hex7b		NoAction
+	Midi_Hex7c		NoAction
+	Midi_Hex7d		NoAction
+	Midi_Hex7e		NoAction
+	Midi_Hex7f		NoAction
+
+
+	//Global+Midi_Hex42				ToggleEnableFocusedFXParamMapping
+	Global+Midi_Hex43			ToggleEnableFocusedFXMapping
+	Global+Midi_Hex44			GoZone LearnFXParams
+
+
+	//Reaper 40214	//Insert new MIDI item...
+
+	
+
+//MODIFIERS
+	//Flip				Flip 		Fixed button in icon
+	Shift				Shift
+	Option				Option
+	Control				Control
+	Alt					Alt	 
+
+//UTILITY BUTTONS
+	Save				SaveProject
+	Undo				Undo Feedback=No
+	Hold+Undo			Reaper 40072				//View: Show undo history window
+	Shift+Undo			Redo
+
+	Enter				Reaper _RSc8d86f22f12e7df523c168422375a2fae7146696	//new CSI-OnButtonEnter
+	Cancel				Reaper _RS659d4dca1fc6a8202fec2bb366f954d536f16e86	//new CSI-OnButtonCancel
+
+	Nudge					Nudge
+	//Marker					  Marker
+
+	Drop					Reaper 1157				 	//Toggle snapping
+	Replace					Reaper 1155				 	//Cycle ripple editing mode
+
+	Click					Reaper 40364				//Toggle metronome
+	Shift+Click			Reaper _SWS_AWCOUNTRECTOG	//Toggle count-in before recording
+	Hold+Click			Reaper 40363				//Show metronome settings
+
+	Solo					ClearAllSolo
+	Option+Solo			Reaper 40745				//Solo in front (dim solo)  
+
+	Marker 						Reaper _RS7602e88d7f7d497efee5ac2c4b9cd1d6770acc47	//CSI - OnButton Marker
+
+	Nudge+Up					Reaper 41925				//Item: Nudge items volume +1dB
+	Nudge+Down					Reaper 41924				//Item: Nudge items volume -1dB
+	Nudge+Left					Reaper 41279				//Item edit: Nudge left by saved nudge dialog settings 1
+	Nudge+Right					Reaper 41275				//Item edit: Nudge right by saved nudge dialog settings 1
+
+ZoneEnd
