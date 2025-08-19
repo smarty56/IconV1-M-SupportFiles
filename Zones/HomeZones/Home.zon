@@ -1,4 +1,4 @@
-//Based on XTouch Surface
+//Based on XTouch
 Zone Home
     OnInitialization	ToggleRestrictTextLength 7
     //OnInitialization 	ToggleEnableFocusedFXMapping
