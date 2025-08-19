@@ -1,4 +1,5 @@
 //Based on XTouch
+// New
 Zone Home
     OnInitialization	ToggleRestrictTextLength 7
     //OnInitialization 	ToggleEnableFocusedFXMapping
