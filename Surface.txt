@@ -70,7 +70,7 @@ Widget SEL_TRK_FXMENU
 	FB_TwoState 90 30 7f 90 30 00
 WidgetEnd
 
-Widget MASTER_TRK_FX_MENU
+Widget MST_TRK_FXMENU
 	Press 90 31 7f 90 31 00
 	FB_TwoState 90 31 7f 90 31 00
 WidgetEnd
