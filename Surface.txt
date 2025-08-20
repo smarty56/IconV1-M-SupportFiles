@@ -26,45 +26,62 @@ AccelerationValuesEnd
 // 0x65 to 0x7F (27)
 // Total 67
 
-
-Widget TRACK
+Widget HOME
 	Press 90 28 7f 90 28 00
-	FB_TwoState 90 28 7f 90 28 00
-WidgetEnd
-
-Widget SEL_TRK_SND
-	Press 90 29 7f 90 29 00
-	FB_TwoState 90 29 7f 90 29 00
 WidgetEnd
 
 Widget FOLDER 
-	Press 90 2a 7f  90 2a 00
+	Press 90 29 7f  90 29 00
+	FB_TwoState 90 29 7f 90 29 00
+WidgetEnd
+
+Widget TRACK
+	Press 90 2a 7f 90 2a 00
 	FB_TwoState 90 2a 7f 90 2a 00
 WidgetEnd
 
-Widget SEL_TRK_FXMENU
+Widget TRK_SND
 	Press 90 2b 7f 90 2b 00
 	FB_TwoState 90 2b 7f 90 2b 00
 WidgetEnd
 
-Widget SEL_TRK_REC
+Widget TRK_REC
 	Press 90 2c 7f 90 2c 00
 	FB_TwoState 90 2c 7f 90 2c 00
 WidgetEnd
 
-Widget TOG_MIXER
+Widget TRK_FXMENU
 	Press 90 2d 7f 90 2d 00
 	FB_TwoState 90 2d 7f 90 2d 00
 WidgetEnd
+
+Widget SEL_TRK_SND
+	Press 90 2e 7f 90 2e 00
+	FB_TwoState 90 2e 7f 90 2e 00
+WidgetEnd
+
+Widget SEL_TRK_REC
+	Press 90 2f 7f 90 2f 00
+	FB_TwoState 90 2f 7f 90 2f 00
+WidgetEnd
+
+Widget SEL_TRK_FXMENU
+	Press 90 30 7f 90 30 00
+	FB_TwoState 90 30 7f 90 30 00
+WidgetEnd
+
+Widget MASTER_TRK_FX_MENU
+	Press 90 31 7f 90 31 00
+	FB_TwoState 90 31 7f 90 31 00
+WidgetEnd
+
+///
 
 Widget GLOBAL
 	Press 90 33 7f 90 33 00
 	FB_TwoState 90 33 7f 90 33 00
 WidgetEnd
 
-Widget HOME
-	Press 90 34 7f 90 34 00
-WidgetEnd
 
 Widget CYCLE_TIME_DISP
 	Press 90 35 7f 90 35 00

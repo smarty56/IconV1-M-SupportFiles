@@ -11,26 +11,29 @@ Zone Buttons
 	TimeDisplay			MCUTimeDisplay			//these are not actual buttons
 	CYCLE_TIME_DISP		CycleTimeDisplayModes
 
-	//GOZONE
-	HOME 					GoHome						//HOME		Reaper _RS56119a80679ef60e7ec876886fb50967700fffd2	//Script: CSI-OnButtonHOME.lua
-	FOLDER					GoZone Folder 				//FOLDER	Reaper _RSe8589905351f8341cd1fd7162d86611a3913f6e0	Feedback=No //Script: CSI-OnButtonFOLDER.lua
-	TRACK					GoZone SelectedTracks 		//TRACK		Reaper	_RS1cb5ba41be214770f4fbeb1f94e4c661db7d48c9	//Script: CSI-OnButtonTrack.lua
-	SEL_TRK_REC				GoZone SelectedTrackReceive	//SEL_TRK_REC	Reaper _RS688389a75ebe7723e51934b5603a465d4803702c	//OnButtonEq
-	Global+SEL_TRK_REC		GoZone TrackReceive
-	SEL_TRK_SND				GoZone SelectedTrackSend	//SEL_TRK_SND		Reaper _RS940ba34d1a4d9b734dd020ae37d3b2233b2bfdbe	//OnButtonSend
-	Global+SEL_TRK_SND		GoZone TrackSend			//SEL_TRK_FXMENU	Reaper _RSbb18507e60bebf012cc1e2dcb8587658ce0eac37	//OnButtonPlugin
-	SEL_TRK_FXMENU			GoZone SelectedTrackFXMenu
-	Global+SEL_TRK_FXMENU	GoZone TrackFXMenu
+	//GOZONES
+	HOME 			GoHome						
+	FOLDER			GoZone Folder 				
+	TRACK			GoZone SelectedTracks 		
+	TRK_SND			GoZone TrackSend			
+	TRK_REC			GoZone TrackReceive
+	TRK_FXMENU		GoZone TrackFXMenu
+	SEL_TRK_SND		GoZone SelectedTrackSend
+	SEL_TRK_REC		GoZone SelectedTrackReceive	
+	SEL_TRK_FXMENU	GoZone SelectedTrackFXMenu	
+	MST_TRK_FXMENU	GoZone MasterTrackFXMenu
 
+
+	
 	TOG_MIXER 				Reaper 40078 		//Toggle Mixer visible
+
 	Global+TOG_MIXER		Reaper _RSeff2521a285c71903b4292401c311afda0357427	//Script: CSI-ToggleShowMasterTrackAndVolumeEnvelope.lua
 
 	GLOBAL	 				Global
-
-	Midi_Hex36				NoAction
-	Midi_Hex37				NoAction
-	Midi_Hex38				NoAction
-	Midi_Hex39				NoAction
+	
+	Midi_Hex37				NoAction	//55
+	Midi_Hex38				NoAction	//56
+	Midi_Hex39				NoAction	//57
 	Midi_Hex3a				NoAction
 	Midi_Hex3b				NoAction
 	Midi_Hex3c				NoAction
