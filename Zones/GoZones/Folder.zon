@@ -51,6 +51,6 @@
 	
 	BankLeft				Bank Folder -8
 	BankRight				Bank Folder 8
-	ChannelLeft				Bank Folder 1
-	ChannelRight			Bank Folder -1  
+	ChannelLeft				Bank Folder -1
+	ChannelRight			Bank Folder 1  
 ZoneEnd
