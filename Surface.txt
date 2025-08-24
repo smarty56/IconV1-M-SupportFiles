@@ -56,51 +56,37 @@ Widget TRK_FXMENU
 WidgetEnd
 
 Widget SEL_TRK_SND
-	Press 90 2e 7f 90 2e 00
-	FB_TwoState 90 2e 7f 90 2e 00
+	Press 90 33 7f 90 33 00
+	FB_TwoState 90 33 7f 90 33 00
 WidgetEnd
 
 Widget SEL_TRK_REC
-	Press 90 2f 7f 90 2f 00
-	FB_TwoState 90 2f 7f 90 2f 00
+	Press 90 34 7f 90 34 00
+	FB_TwoState 90 34 7f 90 34 00
 WidgetEnd
 
 Widget SEL_TRK_FXMENU
-	Press 90 30 7f 90 30 00
-	FB_TwoState 90 30 7f 90 30 00
+	Press 90 35 7f 90 35 00
+	FB_TwoState 90 35 7f 90 35 00
 WidgetEnd
 
 Widget MST_TRK_FXMENU
-	Press 90 31 7f 90 31 00
-	FB_TwoState 90 31 7f 90 31 00
+	Press 90 36 7f 90 36 00
+	FB_TwoState 90 36 7f 90 36 00
 WidgetEnd
 
 ///
 
 Widget GLOBAL
-	Press 90 33 7f 90 33 00
-	FB_TwoState 90 33 7f 90 33 00
-WidgetEnd
-
-
-Widget CYCLE_TIME_DISP
-	Press 90 35 7f 90 35 00
-WidgetEnd
-
-Widget Midi_Hex36
-	Press 90 36 7f 90 36 00
-	FB_TwoState 90 36 7f 90 36 00
-WidgetEnd
-
-Widget Midi_Hex37
 	Press 90 37 7f 90 37 00
 	FB_TwoState 90 37 7f 90 37 00
 WidgetEnd
 
-Widget Midi_Hex38
+Widget CYCLE_TIME_DISP
 	Press 90 38 7f 90 38 00
-	FB_TwoState 90 38 7f 90 38 00
 WidgetEnd
+
+///
 
 Widget Midi_Hex39
 	Press 90 39 7f 90 39 00
