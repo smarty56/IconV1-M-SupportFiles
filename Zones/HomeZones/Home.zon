@@ -66,8 +66,9 @@ Zone Home
 	//Zoom		Zoom 	//THIS NEEDS TO GO TO a "Zoom" zone where the actions of the JogWhell can be redifined Zoom Reaper 40113 // ZOOM SELECTED TRACK	
 	Zoom GoSubZone Zoom
 
-    Up                          Reaper _XENAKIOS_TVPAGEUP   // Xenakios/SWS: Scroll track view up (page)
-    Down                        Reaper _XENAKIOS_TVPAGEDOWN // Xenakios-SWS: Scroll track view down 
+    Up          Reaper _XENAKIOS_SELPREVTRACK 
+	Down		Reaper _XENAKIOS_SELNEXTTRACK  
+
     Left                        Reaper 40842                // Move edit cursor back one beat (no seek)
     Right                       Reaper 40841                // Move edit cursor forward one beat (no seek)
 
