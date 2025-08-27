@@ -30,6 +30,8 @@ Zone Buttons
 	Shift+Undo			Redo
 	//			ToggleEnableFocusedFXParamMapping
 	//			ToggleEnableFocusedFXMapping
+	Midi_Hex3d LearnFocusedFX
+	
 	Solo					ClearAllSolo
 
 	//Modifiers - We have loads of button so are modifiers necessary (they do change the display but is this needed??)
