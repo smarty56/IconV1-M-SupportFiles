@@ -78,8 +78,12 @@ Zone Home
 	Increase+JogWheel		   	Reaper 40839				// Move edit cursor forward one measure (no seek)
 
 //Review these
-Shift+Increase+JogWheel Reaper 40103 // CREATE JOG TIME SEL R  //Time selection: Move cursor right, creating time selection
-Shift+Decrease+JogWheel Reaper 40102 // CREATE JOG TIME SEL L
+//Shift+Increase+JogWheel Reaper 40103 // CREATE JOG TIME SEL R  //Time selection: Move cursor right, creating time selection
+//Shift+Decrease+JogWheel Reaper 40102 // CREATE JOG TIME SEL L
+Shift+Increase+JogWheel Reaper _SWS_MOVECURSELRIGHT
+Shift+Decrease+JogWheel Reaper _SWS_MOVECURSELLEFT
+
+
 Alt+Increase+JogWheel Reaper 40105 // SCRUB
 Alt+Decrease+JogWheel Reaper 40104 // SCRUB
 
