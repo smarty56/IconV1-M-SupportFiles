@@ -41,7 +41,7 @@ Zone Home
 	Trim               	TrackAutoMode 0
 	Touch              	TrackAutoMode 2
 	Latch              	TrackAutoMode 4
-	Group              	TrackAutoMode 5
+	Group              	Reaper _S&M_CYCLACTION_2 //TrackAutoMode 5
 	Global+Read    		GlobalAutoMode 1
 	Global+Write  	 	GlobalAutoMode 3
 	Global+Trim   	 	GlobalAutoMode 0
