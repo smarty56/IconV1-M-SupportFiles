@@ -44,14 +44,15 @@ Zone Buttons
 	Nudge					Nudge
 
 	//Reaper Actions
-	Midi_Hex39		Reaper 40078 						//Toggle Mixer visible
-	Midi_Hex3a		Reaper _SWS_AWCOUNTRECTOG			//Toggle count-in before recording
-	Midi_Hex3b		Reaper 40745						//Options: Solo in front (dim solo)
-	Midi_Hex3c		Reaper _SWS_TOGZOOMHORIZ_TSEL		//SWS: Toggle horizontal zoom to time selection  
-	Midi_Hex3e	 			Reaper _S&M_TOGLFXCHAIN		//SWS/S&M: Toggle show FX chain windows for selected tracks
-	Midi_Hex42				Reaper 40271 				//View: Show FX browser window
-	Midi_Hex43				Reaper _S&M_WNTGL5			//SWS/S&M: Toggle show all floating FX for selected tracks
-	InvertFB+Midi_Hex45		Reaper 41884				//Monitoring FX: Toggle bypass NOTE THE "InvertFB"
+	Midi_Hex39				Reaper 40078 					//Toggle Mixer visible
+	Midi_Hex3a				Reaper _SWS_AWCOUNTRECTOG		//Toggle count-in before recording
+	Midi_Hex3b				Reaper 40745					//Options: Solo in front (dim solo)
+	Midi_Hex3c				Reaper _SWS_TOGZOOMHORIZ_TSEL	//SWS: Toggle horizontal zoom to time selection  
+	Midi_Hex3e	 			Reaper _S&M_TOGLFXCHAIN			//SWS/S&M: Toggle show FX chain windows for selected tracks
+	Midi_Hex3f 				Reaper 41160 					//Automation: Write current values for all writing envelopes to time selection
+	Midi_Hex42				Reaper 40271 					//View: Show FX browser window
+	Midi_Hex43				Reaper _S&M_WNTGL5				//SWS/S&M: Toggle show all floating FX for selected tracks
+	InvertFB+Midi_Hex45		Reaper 41884					//Monitoring FX: Toggle bypass NOTE THE "InvertFB"
 
  	Global+TOG_MIXER		Reaper _RSeff2521a285c71903b4292401c311afda0357427	//Script: CSI-ToggleShowMasterTrackAndVolumeEnvelope.lua
 
