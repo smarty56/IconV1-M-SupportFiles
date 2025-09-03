@@ -419,6 +419,10 @@ Widget TimeDisplay
 	FB_MCUTimeDisplay
 WidgetEnd
 
+Widget TrackColors
+	FB_V1MTrackColors
+WidgetEnd
+
 Widget Display1Upper1
     FB_V1MDisplay1Upper 0
 WidgetEnd

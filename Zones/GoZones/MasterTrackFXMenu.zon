@@ -1,4 +1,11 @@
 Zone MasterTrackFXMenu
+
+     OnZoneActivation         SetXTouchDisplayColors Blue
+     OnZoneDeactivation       RestoreXTouchDisplayColors
+	 TrackColors 		NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
+
+
+
     
 	Display1Upper|		FXMenuNameDisplay
 	Display1Lower|		FXBypassDisplay
