@@ -28,6 +28,7 @@ AccelerationValuesEnd
 
 Widget HOME
 	Press 90 28 7f 90 28 00
+	FB_TwoState 90 28 7f 90 28 00
 WidgetEnd
 
 Widget FOLDER 
