@@ -5,7 +5,7 @@ Zone TrackSend
 	//TrackColors 		NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 
-	Display1Upper|               FixedTextDisplay "TrkSnd"
+	Display1Upper|               TrackNameDisplay //FixedTextDisplay "TrkSnd"
 	Touch+Display1Upper|         TrackSendVolumeDisplay
 	
 	Display1Lower|               TrackSendNameDisplay
