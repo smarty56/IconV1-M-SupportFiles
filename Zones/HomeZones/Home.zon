@@ -5,6 +5,7 @@ Zone Home
     //OnInitialization 	ToggleEnableFocusedFXMapping
     OnInitialization    ToggleUseLocalModifiers
     OnInitialization    SetLatchTime 100
+	OnInitialization            SetDoublePressTime 500
     
 	IncludedZones
 		Buttons
@@ -55,7 +56,7 @@ Zone Home
 	Rewind Rewind
 	FastForward FastForward
 	Stop 	Stop
-	Hold+Stop				Reaper 40042 Feedback=No				// Go to start of project
+	DoublePress+Stop		Reaper 40042 Feedback=No //Go to start of project
 	Play 	Play
 	Record Record
 
