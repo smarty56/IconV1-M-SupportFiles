@@ -1,7 +1,7 @@
 Zone TrackReceive
 
-	//OnZoneActivation	SetXTouchDisplayColors Red
-	//OnZoneDeactivation  RestoreXTouchDisplayColors
+	//OnZoneActivation	SetV1MDisplayColors Red
+	//OnZoneDeactivation  RestoreV1MDisplayColors
 	//TrackColors NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 

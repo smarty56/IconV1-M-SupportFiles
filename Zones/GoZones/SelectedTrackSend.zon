@@ -1,7 +1,7 @@
 Zone SelectedTrackSend
-	OnZoneActivation	SetXTouchDisplayColors Cyan
-     OnZoneDeactivation       RestoreXTouchDisplayColors
-	 TrackColors 		NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
+	//OnZoneActivation		SetXV1MDisplayColors Cyan
+    //OnZoneDeactivation    RestoreV1MDisplayColors
+	//TrackColors 		NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 	Display1Upper|				TrackSendPrePostDisplay
 	Shift+Display1Upper|		TrackSendPanDisplay
