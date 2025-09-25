@@ -1,0 +1,938 @@
+Zone "VST3: Neoverb (iZotope)" "Neoverb"
+     OnZoneActivation    SetXTouchDisplayColors Cyan
+     OnZoneDeactivation  RestoreXTouchDisplayColors
+     SEL_TRK_FXMENU              ClearFXSlot
+
+#Begin auto generated section
+
+	Fader1 NoAction 
+	RotaryPush1 NoAction 
+	Rotary1 FXParam 2 [ 0.00>1.00 (0.005,0.008,0.01,0.03) (0)  ]
+	Display1Upper1 FixedTextDisplay "Dry/Wet" 2 
+	Display1Lower1 FXParamValueDisplay 2 
+
+
+	Fader2 NoAction 
+	RotaryPush2 NoAction 
+	Rotary2 NoAction 
+	Display1Upper2 NoAction 
+	Display1Lower2 NoAction 
+
+
+	Fader3 NoAction 
+	RotaryPush3 NoAction 
+	Rotary3 NoAction 
+	Display1Upper3 NoAction 
+	Display1Lower3 NoAction 
+
+
+	Fader4 NoAction 
+	RotaryPush4 NoAction 
+	Rotary4 NoAction 
+	Display1Upper4 NoAction 
+	Display1Lower4 NoAction 
+
+
+	Fader5 NoAction 
+	RotaryPush5 NoAction 
+	Rotary5 NoAction 
+	Display1Upper5 NoAction 
+	Display1Lower5 NoAction 
+
+
+	Fader6 NoAction 
+	RotaryPush6 NoAction 
+	Rotary6 NoAction 
+	Display1Upper6 NoAction 
+	Display1Lower6 NoAction 
+
+
+	Fader7 NoAction 
+	RotaryPush7 NoAction 
+	Rotary7 NoAction 
+	Display1Upper7 NoAction 
+	Display1Lower7 NoAction 
+
+
+	Fader8 NoAction 
+	RotaryPush8 NoAction 
+	Rotary8 NoAction 
+	Display1Upper8 NoAction 
+	Display1Lower8 NoAction 
+
+
+
+
+	Shift+Fader1 NoAction 
+	Shift+RotaryPush1 NoAction 
+	Shift+Rotary1 NoAction 
+	Shift+Display1Upper1 NoAction 
+	Shift+Display1Lower1 NoAction 
+
+
+	Shift+Fader2 NoAction 
+	Shift+RotaryPush2 NoAction 
+	Shift+Rotary2 NoAction 
+	Shift+Display1Upper2 NoAction 
+	Shift+Display1Lower2 NoAction 
+
+
+	Shift+Fader3 NoAction 
+	Shift+RotaryPush3 NoAction 
+	Shift+Rotary3 NoAction 
+	Shift+Display1Upper3 NoAction 
+	Shift+Display1Lower3 NoAction 
+
+
+	Shift+Fader4 NoAction 
+	Shift+RotaryPush4 NoAction 
+	Shift+Rotary4 NoAction 
+	Shift+Display1Upper4 NoAction 
+	Shift+Display1Lower4 NoAction 
+
+
+	Shift+Fader5 NoAction 
+	Shift+RotaryPush5 NoAction 
+	Shift+Rotary5 NoAction 
+	Shift+Display1Upper5 NoAction 
+	Shift+Display1Lower5 NoAction 
+
+
+	Shift+Fader6 NoAction 
+	Shift+RotaryPush6 NoAction 
+	Shift+Rotary6 NoAction 
+	Shift+Display1Upper6 NoAction 
+	Shift+Display1Lower6 NoAction 
+
+
+	Shift+Fader7 NoAction 
+	Shift+RotaryPush7 NoAction 
+	Shift+Rotary7 NoAction 
+	Shift+Display1Upper7 NoAction 
+	Shift+Display1Lower7 NoAction 
+
+
+	Shift+Fader8 NoAction 
+	Shift+RotaryPush8 NoAction 
+	Shift+Rotary8 NoAction 
+	Shift+Display1Upper8 NoAction 
+	Shift+Display1Lower8 NoAction 
+
+
+
+
+	Option+Fader1 NoAction 
+	Option+RotaryPush1 NoAction 
+	Option+Rotary1 NoAction 
+	Option+Display1Upper1 NoAction 
+	Option+Display1Lower1 NoAction 
+
+
+	Option+Fader2 NoAction 
+	Option+RotaryPush2 NoAction 
+	Option+Rotary2 NoAction 
+	Option+Display1Upper2 NoAction 
+	Option+Display1Lower2 NoAction 
+
+
+	Option+Fader3 NoAction 
+	Option+RotaryPush3 NoAction 
+	Option+Rotary3 NoAction 
+	Option+Display1Upper3 NoAction 
+	Option+Display1Lower3 NoAction 
+
+
+	Option+Fader4 NoAction 
+	Option+RotaryPush4 NoAction 
+	Option+Rotary4 NoAction 
+	Option+Display1Upper4 NoAction 
+	Option+Display1Lower4 NoAction 
+
+
+	Option+Fader5 NoAction 
+	Option+RotaryPush5 NoAction 
+	Option+Rotary5 NoAction 
+	Option+Display1Upper5 NoAction 
+	Option+Display1Lower5 NoAction 
+
+
+	Option+Fader6 NoAction 
+	Option+RotaryPush6 NoAction 
+	Option+Rotary6 NoAction 
+	Option+Display1Upper6 NoAction 
+	Option+Display1Lower6 NoAction 
+
+
+	Option+Fader7 NoAction 
+	Option+RotaryPush7 NoAction 
+	Option+Rotary7 NoAction 
+	Option+Display1Upper7 NoAction 
+	Option+Display1Lower7 NoAction 
+
+
+	Option+Fader8 NoAction 
+	Option+RotaryPush8 NoAction 
+	Option+Rotary8 NoAction 
+	Option+Display1Upper8 NoAction 
+	Option+Display1Lower8 NoAction 
+
+
+
+
+	Control+Fader1 NoAction 
+	Control+RotaryPush1 NoAction 
+	Control+Rotary1 NoAction 
+	Control+Display1Upper1 NoAction 
+	Control+Display1Lower1 NoAction 
+
+
+	Control+Fader2 NoAction 
+	Control+RotaryPush2 NoAction 
+	Control+Rotary2 NoAction 
+	Control+Display1Upper2 NoAction 
+	Control+Display1Lower2 NoAction 
+
+
+	Control+Fader3 NoAction 
+	Control+RotaryPush3 NoAction 
+	Control+Rotary3 NoAction 
+	Control+Display1Upper3 NoAction 
+	Control+Display1Lower3 NoAction 
+
+
+	Control+Fader4 NoAction 
+	Control+RotaryPush4 NoAction 
+	Control+Rotary4 NoAction 
+	Control+Display1Upper4 NoAction 
+	Control+Display1Lower4 NoAction 
+
+
+	Control+Fader5 NoAction 
+	Control+RotaryPush5 NoAction 
+	Control+Rotary5 NoAction 
+	Control+Display1Upper5 NoAction 
+	Control+Display1Lower5 NoAction 
+
+
+	Control+Fader6 NoAction 
+	Control+RotaryPush6 NoAction 
+	Control+Rotary6 NoAction 
+	Control+Display1Upper6 NoAction 
+	Control+Display1Lower6 NoAction 
+
+
+	Control+Fader7 NoAction 
+	Control+RotaryPush7 NoAction 
+	Control+Rotary7 NoAction 
+	Control+Display1Upper7 NoAction 
+	Control+Display1Lower7 NoAction 
+
+
+	Control+Fader8 NoAction 
+	Control+RotaryPush8 NoAction 
+	Control+Rotary8 NoAction 
+	Control+Display1Upper8 NoAction 
+	Control+Display1Lower8 NoAction 
+
+
+
+
+	Alt+Fader1 NoAction 
+	Alt+RotaryPush1 NoAction 
+	Alt+Rotary1 NoAction 
+	Alt+Display1Upper1 NoAction 
+	Alt+Display1Lower1 NoAction 
+
+
+	Alt+Fader2 NoAction 
+	Alt+RotaryPush2 NoAction 
+	Alt+Rotary2 NoAction 
+	Alt+Display1Upper2 NoAction 
+	Alt+Display1Lower2 NoAction 
+
+
+	Alt+Fader3 NoAction 
+	Alt+RotaryPush3 NoAction 
+	Alt+Rotary3 NoAction 
+	Alt+Display1Upper3 NoAction 
+	Alt+Display1Lower3 NoAction 
+
+
+	Alt+Fader4 NoAction 
+	Alt+RotaryPush4 NoAction 
+	Alt+Rotary4 NoAction 
+	Alt+Display1Upper4 NoAction 
+	Alt+Display1Lower4 NoAction 
+
+
+	Alt+Fader5 NoAction 
+	Alt+RotaryPush5 NoAction 
+	Alt+Rotary5 NoAction 
+	Alt+Display1Upper5 NoAction 
+	Alt+Display1Lower5 NoAction 
+
+
+	Alt+Fader6 NoAction 
+	Alt+RotaryPush6 NoAction 
+	Alt+Rotary6 NoAction 
+	Alt+Display1Upper6 NoAction 
+	Alt+Display1Lower6 NoAction 
+
+
+	Alt+Fader7 NoAction 
+	Alt+RotaryPush7 NoAction 
+	Alt+Rotary7 NoAction 
+	Alt+Display1Upper7 NoAction 
+	Alt+Display1Lower7 NoAction 
+
+
+	Alt+Fader8 NoAction 
+	Alt+RotaryPush8 NoAction 
+	Alt+Rotary8 NoAction 
+	Alt+Display1Upper8 NoAction 
+	Alt+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Option+Fader1 NoAction 
+	Shift+Option+RotaryPush1 NoAction 
+	Shift+Option+Rotary1 NoAction 
+	Shift+Option+Display1Upper1 NoAction 
+	Shift+Option+Display1Lower1 NoAction 
+
+
+	Shift+Option+Fader2 NoAction 
+	Shift+Option+RotaryPush2 NoAction 
+	Shift+Option+Rotary2 NoAction 
+	Shift+Option+Display1Upper2 NoAction 
+	Shift+Option+Display1Lower2 NoAction 
+
+
+	Shift+Option+Fader3 NoAction 
+	Shift+Option+RotaryPush3 NoAction 
+	Shift+Option+Rotary3 NoAction 
+	Shift+Option+Display1Upper3 NoAction 
+	Shift+Option+Display1Lower3 NoAction 
+
+
+	Shift+Option+Fader4 NoAction 
+	Shift+Option+RotaryPush4 NoAction 
+	Shift+Option+Rotary4 NoAction 
+	Shift+Option+Display1Upper4 NoAction 
+	Shift+Option+Display1Lower4 NoAction 
+
+
+	Shift+Option+Fader5 NoAction 
+	Shift+Option+RotaryPush5 NoAction 
+	Shift+Option+Rotary5 NoAction 
+	Shift+Option+Display1Upper5 NoAction 
+	Shift+Option+Display1Lower5 NoAction 
+
+
+	Shift+Option+Fader6 NoAction 
+	Shift+Option+RotaryPush6 NoAction 
+	Shift+Option+Rotary6 NoAction 
+	Shift+Option+Display1Upper6 NoAction 
+	Shift+Option+Display1Lower6 NoAction 
+
+
+	Shift+Option+Fader7 NoAction 
+	Shift+Option+RotaryPush7 NoAction 
+	Shift+Option+Rotary7 NoAction 
+	Shift+Option+Display1Upper7 NoAction 
+	Shift+Option+Display1Lower7 NoAction 
+
+
+	Shift+Option+Fader8 NoAction 
+	Shift+Option+RotaryPush8 NoAction 
+	Shift+Option+Rotary8 NoAction 
+	Shift+Option+Display1Upper8 NoAction 
+	Shift+Option+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Control+Fader1 NoAction 
+	Shift+Control+RotaryPush1 NoAction 
+	Shift+Control+Rotary1 NoAction 
+	Shift+Control+Display1Upper1 NoAction 
+	Shift+Control+Display1Lower1 NoAction 
+
+
+	Shift+Control+Fader2 NoAction 
+	Shift+Control+RotaryPush2 NoAction 
+	Shift+Control+Rotary2 NoAction 
+	Shift+Control+Display1Upper2 NoAction 
+	Shift+Control+Display1Lower2 NoAction 
+
+
+	Shift+Control+Fader3 NoAction 
+	Shift+Control+RotaryPush3 NoAction 
+	Shift+Control+Rotary3 NoAction 
+	Shift+Control+Display1Upper3 NoAction 
+	Shift+Control+Display1Lower3 NoAction 
+
+
+	Shift+Control+Fader4 NoAction 
+	Shift+Control+RotaryPush4 NoAction 
+	Shift+Control+Rotary4 NoAction 
+	Shift+Control+Display1Upper4 NoAction 
+	Shift+Control+Display1Lower4 NoAction 
+
+
+	Shift+Control+Fader5 NoAction 
+	Shift+Control+RotaryPush5 NoAction 
+	Shift+Control+Rotary5 NoAction 
+	Shift+Control+Display1Upper5 NoAction 
+	Shift+Control+Display1Lower5 NoAction 
+
+
+	Shift+Control+Fader6 NoAction 
+	Shift+Control+RotaryPush6 NoAction 
+	Shift+Control+Rotary6 NoAction 
+	Shift+Control+Display1Upper6 NoAction 
+	Shift+Control+Display1Lower6 NoAction 
+
+
+	Shift+Control+Fader7 NoAction 
+	Shift+Control+RotaryPush7 NoAction 
+	Shift+Control+Rotary7 NoAction 
+	Shift+Control+Display1Upper7 NoAction 
+	Shift+Control+Display1Lower7 NoAction 
+
+
+	Shift+Control+Fader8 NoAction 
+	Shift+Control+RotaryPush8 NoAction 
+	Shift+Control+Rotary8 NoAction 
+	Shift+Control+Display1Upper8 NoAction 
+	Shift+Control+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Alt+Fader1 NoAction 
+	Shift+Alt+RotaryPush1 NoAction 
+	Shift+Alt+Rotary1 NoAction 
+	Shift+Alt+Display1Upper1 NoAction 
+	Shift+Alt+Display1Lower1 NoAction 
+
+
+	Shift+Alt+Fader2 NoAction 
+	Shift+Alt+RotaryPush2 NoAction 
+	Shift+Alt+Rotary2 NoAction 
+	Shift+Alt+Display1Upper2 NoAction 
+	Shift+Alt+Display1Lower2 NoAction 
+
+
+	Shift+Alt+Fader3 NoAction 
+	Shift+Alt+RotaryPush3 NoAction 
+	Shift+Alt+Rotary3 NoAction 
+	Shift+Alt+Display1Upper3 NoAction 
+	Shift+Alt+Display1Lower3 NoAction 
+
+
+	Shift+Alt+Fader4 NoAction 
+	Shift+Alt+RotaryPush4 NoAction 
+	Shift+Alt+Rotary4 NoAction 
+	Shift+Alt+Display1Upper4 NoAction 
+	Shift+Alt+Display1Lower4 NoAction 
+
+
+	Shift+Alt+Fader5 NoAction 
+	Shift+Alt+RotaryPush5 NoAction 
+	Shift+Alt+Rotary5 NoAction 
+	Shift+Alt+Display1Upper5 NoAction 
+	Shift+Alt+Display1Lower5 NoAction 
+
+
+	Shift+Alt+Fader6 NoAction 
+	Shift+Alt+RotaryPush6 NoAction 
+	Shift+Alt+Rotary6 NoAction 
+	Shift+Alt+Display1Upper6 NoAction 
+	Shift+Alt+Display1Lower6 NoAction 
+
+
+	Shift+Alt+Fader7 NoAction 
+	Shift+Alt+RotaryPush7 NoAction 
+	Shift+Alt+Rotary7 NoAction 
+	Shift+Alt+Display1Upper7 NoAction 
+	Shift+Alt+Display1Lower7 NoAction 
+
+
+	Shift+Alt+Fader8 NoAction 
+	Shift+Alt+RotaryPush8 NoAction 
+	Shift+Alt+Rotary8 NoAction 
+	Shift+Alt+Display1Upper8 NoAction 
+	Shift+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Option+Control+Fader1 NoAction 
+	Shift+Option+Control+RotaryPush1 NoAction 
+	Shift+Option+Control+Rotary1 NoAction 
+	Shift+Option+Control+Display1Upper1 NoAction 
+	Shift+Option+Control+Display1Lower1 NoAction 
+
+
+	Shift+Option+Control+Fader2 NoAction 
+	Shift+Option+Control+RotaryPush2 NoAction 
+	Shift+Option+Control+Rotary2 NoAction 
+	Shift+Option+Control+Display1Upper2 NoAction 
+	Shift+Option+Control+Display1Lower2 NoAction 
+
+
+	Shift+Option+Control+Fader3 NoAction 
+	Shift+Option+Control+RotaryPush3 NoAction 
+	Shift+Option+Control+Rotary3 NoAction 
+	Shift+Option+Control+Display1Upper3 NoAction 
+	Shift+Option+Control+Display1Lower3 NoAction 
+
+
+	Shift+Option+Control+Fader4 NoAction 
+	Shift+Option+Control+RotaryPush4 NoAction 
+	Shift+Option+Control+Rotary4 NoAction 
+	Shift+Option+Control+Display1Upper4 NoAction 
+	Shift+Option+Control+Display1Lower4 NoAction 
+
+
+	Shift+Option+Control+Fader5 NoAction 
+	Shift+Option+Control+RotaryPush5 NoAction 
+	Shift+Option+Control+Rotary5 NoAction 
+	Shift+Option+Control+Display1Upper5 NoAction 
+	Shift+Option+Control+Display1Lower5 NoAction 
+
+
+	Shift+Option+Control+Fader6 NoAction 
+	Shift+Option+Control+RotaryPush6 NoAction 
+	Shift+Option+Control+Rotary6 NoAction 
+	Shift+Option+Control+Display1Upper6 NoAction 
+	Shift+Option+Control+Display1Lower6 NoAction 
+
+
+	Shift+Option+Control+Fader7 NoAction 
+	Shift+Option+Control+RotaryPush7 NoAction 
+	Shift+Option+Control+Rotary7 NoAction 
+	Shift+Option+Control+Display1Upper7 NoAction 
+	Shift+Option+Control+Display1Lower7 NoAction 
+
+
+	Shift+Option+Control+Fader8 NoAction 
+	Shift+Option+Control+RotaryPush8 NoAction 
+	Shift+Option+Control+Rotary8 NoAction 
+	Shift+Option+Control+Display1Upper8 NoAction 
+	Shift+Option+Control+Display1Lower8 NoAction 
+
+
+
+
+	Option+Control+Alt+Fader1 NoAction 
+	Option+Control+Alt+RotaryPush1 NoAction 
+	Option+Control+Alt+Rotary1 NoAction 
+	Option+Control+Alt+Display1Upper1 NoAction 
+	Option+Control+Alt+Display1Lower1 NoAction 
+
+
+	Option+Control+Alt+Fader2 NoAction 
+	Option+Control+Alt+RotaryPush2 NoAction 
+	Option+Control+Alt+Rotary2 NoAction 
+	Option+Control+Alt+Display1Upper2 NoAction 
+	Option+Control+Alt+Display1Lower2 NoAction 
+
+
+	Option+Control+Alt+Fader3 NoAction 
+	Option+Control+Alt+RotaryPush3 NoAction 
+	Option+Control+Alt+Rotary3 NoAction 
+	Option+Control+Alt+Display1Upper3 NoAction 
+	Option+Control+Alt+Display1Lower3 NoAction 
+
+
+	Option+Control+Alt+Fader4 NoAction 
+	Option+Control+Alt+RotaryPush4 NoAction 
+	Option+Control+Alt+Rotary4 NoAction 
+	Option+Control+Alt+Display1Upper4 NoAction 
+	Option+Control+Alt+Display1Lower4 NoAction 
+
+
+	Option+Control+Alt+Fader5 NoAction 
+	Option+Control+Alt+RotaryPush5 NoAction 
+	Option+Control+Alt+Rotary5 NoAction 
+	Option+Control+Alt+Display1Upper5 NoAction 
+	Option+Control+Alt+Display1Lower5 NoAction 
+
+
+	Option+Control+Alt+Fader6 NoAction 
+	Option+Control+Alt+RotaryPush6 NoAction 
+	Option+Control+Alt+Rotary6 NoAction 
+	Option+Control+Alt+Display1Upper6 NoAction 
+	Option+Control+Alt+Display1Lower6 NoAction 
+
+
+	Option+Control+Alt+Fader7 NoAction 
+	Option+Control+Alt+RotaryPush7 NoAction 
+	Option+Control+Alt+Rotary7 NoAction 
+	Option+Control+Alt+Display1Upper7 NoAction 
+	Option+Control+Alt+Display1Lower7 NoAction 
+
+
+	Option+Control+Alt+Fader8 NoAction 
+	Option+Control+Alt+RotaryPush8 NoAction 
+	Option+Control+Alt+Rotary8 NoAction 
+	Option+Control+Alt+Display1Upper8 NoAction 
+	Option+Control+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Control+Alt+Fader1 NoAction 
+	Shift+Control+Alt+RotaryPush1 NoAction 
+	Shift+Control+Alt+Rotary1 NoAction 
+	Shift+Control+Alt+Display1Upper1 NoAction 
+	Shift+Control+Alt+Display1Lower1 NoAction 
+
+
+	Shift+Control+Alt+Fader2 NoAction 
+	Shift+Control+Alt+RotaryPush2 NoAction 
+	Shift+Control+Alt+Rotary2 NoAction 
+	Shift+Control+Alt+Display1Upper2 NoAction 
+	Shift+Control+Alt+Display1Lower2 NoAction 
+
+
+	Shift+Control+Alt+Fader3 NoAction 
+	Shift+Control+Alt+RotaryPush3 NoAction 
+	Shift+Control+Alt+Rotary3 NoAction 
+	Shift+Control+Alt+Display1Upper3 NoAction 
+	Shift+Control+Alt+Display1Lower3 NoAction 
+
+
+	Shift+Control+Alt+Fader4 NoAction 
+	Shift+Control+Alt+RotaryPush4 NoAction 
+	Shift+Control+Alt+Rotary4 NoAction 
+	Shift+Control+Alt+Display1Upper4 NoAction 
+	Shift+Control+Alt+Display1Lower4 NoAction 
+
+
+	Shift+Control+Alt+Fader5 NoAction 
+	Shift+Control+Alt+RotaryPush5 NoAction 
+	Shift+Control+Alt+Rotary5 NoAction 
+	Shift+Control+Alt+Display1Upper5 NoAction 
+	Shift+Control+Alt+Display1Lower5 NoAction 
+
+
+	Shift+Control+Alt+Fader6 NoAction 
+	Shift+Control+Alt+RotaryPush6 NoAction 
+	Shift+Control+Alt+Rotary6 NoAction 
+	Shift+Control+Alt+Display1Upper6 NoAction 
+	Shift+Control+Alt+Display1Lower6 NoAction 
+
+
+	Shift+Control+Alt+Fader7 NoAction 
+	Shift+Control+Alt+RotaryPush7 NoAction 
+	Shift+Control+Alt+Rotary7 NoAction 
+	Shift+Control+Alt+Display1Upper7 NoAction 
+	Shift+Control+Alt+Display1Lower7 NoAction 
+
+
+	Shift+Control+Alt+Fader8 NoAction 
+	Shift+Control+Alt+RotaryPush8 NoAction 
+	Shift+Control+Alt+Rotary8 NoAction 
+	Shift+Control+Alt+Display1Upper8 NoAction 
+	Shift+Control+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Shift+Option+Alt+Fader1 NoAction 
+	Shift+Option+Alt+RotaryPush1 NoAction 
+	Shift+Option+Alt+Rotary1 NoAction 
+	Shift+Option+Alt+Display1Upper1 NoAction 
+	Shift+Option+Alt+Display1Lower1 NoAction 
+
+
+	Shift+Option+Alt+Fader2 NoAction 
+	Shift+Option+Alt+RotaryPush2 NoAction 
+	Shift+Option+Alt+Rotary2 NoAction 
+	Shift+Option+Alt+Display1Upper2 NoAction 
+	Shift+Option+Alt+Display1Lower2 NoAction 
+
+
+	Shift+Option+Alt+Fader3 NoAction 
+	Shift+Option+Alt+RotaryPush3 NoAction 
+	Shift+Option+Alt+Rotary3 NoAction 
+	Shift+Option+Alt+Display1Upper3 NoAction 
+	Shift+Option+Alt+Display1Lower3 NoAction 
+
+
+	Shift+Option+Alt+Fader4 NoAction 
+	Shift+Option+Alt+RotaryPush4 NoAction 
+	Shift+Option+Alt+Rotary4 NoAction 
+	Shift+Option+Alt+Display1Upper4 NoAction 
+	Shift+Option+Alt+Display1Lower4 NoAction 
+
+
+	Shift+Option+Alt+Fader5 NoAction 
+	Shift+Option+Alt+RotaryPush5 NoAction 
+	Shift+Option+Alt+Rotary5 NoAction 
+	Shift+Option+Alt+Display1Upper5 NoAction 
+	Shift+Option+Alt+Display1Lower5 NoAction 
+
+
+	Shift+Option+Alt+Fader6 NoAction 
+	Shift+Option+Alt+RotaryPush6 NoAction 
+	Shift+Option+Alt+Rotary6 NoAction 
+	Shift+Option+Alt+Display1Upper6 NoAction 
+	Shift+Option+Alt+Display1Lower6 NoAction 
+
+
+	Shift+Option+Alt+Fader7 NoAction 
+	Shift+Option+Alt+RotaryPush7 NoAction 
+	Shift+Option+Alt+Rotary7 NoAction 
+	Shift+Option+Alt+Display1Upper7 NoAction 
+	Shift+Option+Alt+Display1Lower7 NoAction 
+
+
+	Shift+Option+Alt+Fader8 NoAction 
+	Shift+Option+Alt+RotaryPush8 NoAction 
+	Shift+Option+Alt+Rotary8 NoAction 
+	Shift+Option+Alt+Display1Upper8 NoAction 
+	Shift+Option+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Option+Control+Fader1 NoAction 
+	Option+Control+RotaryPush1 NoAction 
+	Option+Control+Rotary1 NoAction 
+	Option+Control+Display1Upper1 NoAction 
+	Option+Control+Display1Lower1 NoAction 
+
+
+	Option+Control+Fader2 NoAction 
+	Option+Control+RotaryPush2 NoAction 
+	Option+Control+Rotary2 NoAction 
+	Option+Control+Display1Upper2 NoAction 
+	Option+Control+Display1Lower2 NoAction 
+
+
+	Option+Control+Fader3 NoAction 
+	Option+Control+RotaryPush3 NoAction 
+	Option+Control+Rotary3 NoAction 
+	Option+Control+Display1Upper3 NoAction 
+	Option+Control+Display1Lower3 NoAction 
+
+
+	Option+Control+Fader4 NoAction 
+	Option+Control+RotaryPush4 NoAction 
+	Option+Control+Rotary4 NoAction 
+	Option+Control+Display1Upper4 NoAction 
+	Option+Control+Display1Lower4 NoAction 
+
+
+	Option+Control+Fader5 NoAction 
+	Option+Control+RotaryPush5 NoAction 
+	Option+Control+Rotary5 NoAction 
+	Option+Control+Display1Upper5 NoAction 
+	Option+Control+Display1Lower5 NoAction 
+
+
+	Option+Control+Fader6 NoAction 
+	Option+Control+RotaryPush6 NoAction 
+	Option+Control+Rotary6 NoAction 
+	Option+Control+Display1Upper6 NoAction 
+	Option+Control+Display1Lower6 NoAction 
+
+
+	Option+Control+Fader7 NoAction 
+	Option+Control+RotaryPush7 NoAction 
+	Option+Control+Rotary7 NoAction 
+	Option+Control+Display1Upper7 NoAction 
+	Option+Control+Display1Lower7 NoAction 
+
+
+	Option+Control+Fader8 NoAction 
+	Option+Control+RotaryPush8 NoAction 
+	Option+Control+Rotary8 NoAction 
+	Option+Control+Display1Upper8 NoAction 
+	Option+Control+Display1Lower8 NoAction 
+
+
+
+
+	Option+Alt+Fader1 NoAction 
+	Option+Alt+RotaryPush1 NoAction 
+	Option+Alt+Rotary1 NoAction 
+	Option+Alt+Display1Upper1 NoAction 
+	Option+Alt+Display1Lower1 NoAction 
+
+
+	Option+Alt+Fader2 NoAction 
+	Option+Alt+RotaryPush2 NoAction 
+	Option+Alt+Rotary2 NoAction 
+	Option+Alt+Display1Upper2 NoAction 
+	Option+Alt+Display1Lower2 NoAction 
+
+
+	Option+Alt+Fader3 NoAction 
+	Option+Alt+RotaryPush3 NoAction 
+	Option+Alt+Rotary3 NoAction 
+	Option+Alt+Display1Upper3 NoAction 
+	Option+Alt+Display1Lower3 NoAction 
+
+
+	Option+Alt+Fader4 NoAction 
+	Option+Alt+RotaryPush4 NoAction 
+	Option+Alt+Rotary4 NoAction 
+	Option+Alt+Display1Upper4 NoAction 
+	Option+Alt+Display1Lower4 NoAction 
+
+
+	Option+Alt+Fader5 NoAction 
+	Option+Alt+RotaryPush5 NoAction 
+	Option+Alt+Rotary5 NoAction 
+	Option+Alt+Display1Upper5 NoAction 
+	Option+Alt+Display1Lower5 NoAction 
+
+
+	Option+Alt+Fader6 NoAction 
+	Option+Alt+RotaryPush6 NoAction 
+	Option+Alt+Rotary6 NoAction 
+	Option+Alt+Display1Upper6 NoAction 
+	Option+Alt+Display1Lower6 NoAction 
+
+
+	Option+Alt+Fader7 NoAction 
+	Option+Alt+RotaryPush7 NoAction 
+	Option+Alt+Rotary7 NoAction 
+	Option+Alt+Display1Upper7 NoAction 
+	Option+Alt+Display1Lower7 NoAction 
+
+
+	Option+Alt+Fader8 NoAction 
+	Option+Alt+RotaryPush8 NoAction 
+	Option+Alt+Rotary8 NoAction 
+	Option+Alt+Display1Upper8 NoAction 
+	Option+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Option+Control+Alt+Fader1 NoAction 
+	Option+Control+Alt+RotaryPush1 NoAction 
+	Option+Control+Alt+Rotary1 NoAction 
+	Option+Control+Alt+Display1Upper1 NoAction 
+	Option+Control+Alt+Display1Lower1 NoAction 
+
+
+	Option+Control+Alt+Fader2 NoAction 
+	Option+Control+Alt+RotaryPush2 NoAction 
+	Option+Control+Alt+Rotary2 NoAction 
+	Option+Control+Alt+Display1Upper2 NoAction 
+	Option+Control+Alt+Display1Lower2 NoAction 
+
+
+	Option+Control+Alt+Fader3 NoAction 
+	Option+Control+Alt+RotaryPush3 NoAction 
+	Option+Control+Alt+Rotary3 NoAction 
+	Option+Control+Alt+Display1Upper3 NoAction 
+	Option+Control+Alt+Display1Lower3 NoAction 
+
+
+	Option+Control+Alt+Fader4 NoAction 
+	Option+Control+Alt+RotaryPush4 NoAction 
+	Option+Control+Alt+Rotary4 NoAction 
+	Option+Control+Alt+Display1Upper4 NoAction 
+	Option+Control+Alt+Display1Lower4 NoAction 
+
+
+	Option+Control+Alt+Fader5 NoAction 
+	Option+Control+Alt+RotaryPush5 NoAction 
+	Option+Control+Alt+Rotary5 NoAction 
+	Option+Control+Alt+Display1Upper5 NoAction 
+	Option+Control+Alt+Display1Lower5 NoAction 
+
+
+	Option+Control+Alt+Fader6 NoAction 
+	Option+Control+Alt+RotaryPush6 NoAction 
+	Option+Control+Alt+Rotary6 NoAction 
+	Option+Control+Alt+Display1Upper6 NoAction 
+	Option+Control+Alt+Display1Lower6 NoAction 
+
+
+	Option+Control+Alt+Fader7 NoAction 
+	Option+Control+Alt+RotaryPush7 NoAction 
+	Option+Control+Alt+Rotary7 NoAction 
+	Option+Control+Alt+Display1Upper7 NoAction 
+	Option+Control+Alt+Display1Lower7 NoAction 
+
+
+	Option+Control+Alt+Fader8 NoAction 
+	Option+Control+Alt+RotaryPush8 NoAction 
+	Option+Control+Alt+Rotary8 NoAction 
+	Option+Control+Alt+Display1Upper8 NoAction 
+	Option+Control+Alt+Display1Lower8 NoAction 
+
+
+
+
+	Control+Alt+Fader1 NoAction 
+	Control+Alt+RotaryPush1 NoAction 
+	Control+Alt+Rotary1 NoAction 
+	Control+Alt+Display1Upper1 NoAction 
+	Control+Alt+Display1Lower1 NoAction 
+
+
+	Control+Alt+Fader2 NoAction 
+	Control+Alt+RotaryPush2 NoAction 
+	Control+Alt+Rotary2 NoAction 
+	Control+Alt+Display1Upper2 NoAction 
+	Control+Alt+Display1Lower2 NoAction 
+
+
+	Control+Alt+Fader3 NoAction 
+	Control+Alt+RotaryPush3 NoAction 
+	Control+Alt+Rotary3 NoAction 
+	Control+Alt+Display1Upper3 NoAction 
+	Control+Alt+Display1Lower3 NoAction 
+
+
+	Control+Alt+Fader4 NoAction 
+	Control+Alt+RotaryPush4 NoAction 
+	Control+Alt+Rotary4 NoAction 
+	Control+Alt+Display1Upper4 NoAction 
+	Control+Alt+Display1Lower4 NoAction 
+
+
+	Control+Alt+Fader5 NoAction 
+	Control+Alt+RotaryPush5 NoAction 
+	Control+Alt+Rotary5 NoAction 
+	Control+Alt+Display1Upper5 NoAction 
+	Control+Alt+Display1Lower5 NoAction 
+
+
+	Control+Alt+Fader6 NoAction 
+	Control+Alt+RotaryPush6 NoAction 
+	Control+Alt+Rotary6 NoAction 
+	Control+Alt+Display1Upper6 NoAction 
+	Control+Alt+Display1Lower6 NoAction 
+
+
+	Control+Alt+Fader7 NoAction 
+	Control+Alt+RotaryPush7 NoAction 
+	Control+Alt+Rotary7 NoAction 
+	Control+Alt+Display1Upper7 NoAction 
+	Control+Alt+Display1Lower7 NoAction 
+
+
+	Control+Alt+Fader8 NoAction 
+	Control+Alt+RotaryPush8 NoAction 
+	Control+Alt+Rotary8 NoAction 
+	Control+Alt+Display1Upper8 NoAction 
+	Control+Alt+Display1Lower8 NoAction 
+
+
+
+#End auto generated section
+
+     OnZoneDeactivation  HideFXSlot
+ZoneEnd
