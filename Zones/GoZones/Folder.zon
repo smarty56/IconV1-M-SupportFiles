@@ -43,8 +43,8 @@
 	//Shift+Mute|			Reaper 40339 Feedback=No			// Track: Unmute all tracks
 
 	Select|					TrackUniqueSelect
-	Select|					TrackToggleFolderSpill HoldDelay=1000 NoFeedback
-	//Select| 				Reaper _RS8230b9c0ee9cb766faa4abe5e1e506590c10ef94 HoldDelay=1000 NoFeedback  //Script: CSI-OnButtonFolderSpill.lua
+	DoublePress+Select|		TrackToggleFolderSpill NoFeedback
+	
 	
 	Shift+Select|			TrackRangeSelect	
 	Control+Select|			TrackSelect
