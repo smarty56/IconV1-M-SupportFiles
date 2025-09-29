@@ -1,6 +1,6 @@
 Zone "VST3: Neoverb (iZotope)" "Neoverb"
-     OnZoneActivation    SetXTouchDisplayColors Cyan
-     OnZoneDeactivation  RestoreXTouchDisplayColors
+     OnZoneActivation    OverrideTrackColors Cyan
+     OnZoneDeactivation  RestoreTrackColors
      SEL_TRK_FXMENU              ClearFXSlot
 
 #Begin auto generated section

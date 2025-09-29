@@ -1,7 +1,7 @@
 Zone "VST3: ValhallaSupermassive (Valhalla DSP, LLC)" "Supermassive"
-	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneActivation	OverrideTrackColors Cyan
 	OnZoneActivation    ToggleUseLocalModifiers
-	OnZoneDeactivation	RestoreXTouchDisplayColors
+	OnZoneDeactivation	RestoreTrackColors
 	OnZoneDeactivation  ToggleUseLocalModifiers
 	SEL_TRK_FXMENU      		ClearFXSlot
 

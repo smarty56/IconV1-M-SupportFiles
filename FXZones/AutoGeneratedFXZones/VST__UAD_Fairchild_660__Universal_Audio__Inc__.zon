@@ -1,5 +1,5 @@
 Zone "VST: UAD Fairchild 660 (Universal Audio, Inc.)" "Fairchild 660"
-	OnZoneActivation	SetXTouchDisplayColors Cyan
+	OnZoneActivation	OverrideTrackColors Cyan
 	OnZoneActivation 	ToggleUseLocalModifiers
 	SEL_TRK_FXMENU      		ClearFXSlot
 
@@ -256,7 +256,7 @@ Zone "VST: UAD Fairchild 660 (Universal Audio, Inc.)" "Fairchild 660"
 
 #End auto generated section
 
-	OnZoneDeactivation	RestoreXTouchDisplayColors
+	OnZoneDeactivation	RestoreTrackColors
 	OnZoneDeactivation 	ToggleUseLocalModifiers
 
 ZoneEnd

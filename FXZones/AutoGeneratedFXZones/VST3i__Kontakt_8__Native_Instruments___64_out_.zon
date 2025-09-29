@@ -1,6 +1,6 @@
 Zone "VST3i: Kontakt 8 (Native Instruments) (64 out)" "Kontakt 8"
-     OnZoneActivation    SetXTouchDisplayColors Cyan
-     OnZoneDeactivation  RestoreXTouchDisplayColors
+     OnZoneActivation    OverrideTrackColors Cyan
+     OnZoneDeactivation  RestoreTrackColors
      SEL_TRK_FXMENU              ClearFXSlot
 
 #Begin auto generated section

@@ -1,6 +1,6 @@
 Zone "JS: Volume Adjustment" "Vol Adj"
-     OnZoneActivation    SetXTouchDisplayColors Cyan
-     OnZoneDeactivation  RestoreXTouchDisplayColors
+     OnZoneActivation    OverrideTrackColors Cyan
+     OnZoneDeactivation  RestoreTrackColors
      SEL_TRK_FXMENU              ClearFXSlot
 
 #Begin auto generated section
