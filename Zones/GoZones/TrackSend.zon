@@ -1,10 +1,5 @@
 Zone TrackSend
 
-	//OnZoneActivation		SetV1MDisplayColors Yellow
-	//OnZoneDeactivation  	RestoreV1MDisplayColors
-	//TrackColors 		NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
-
-
 	Display1Upper|               TrackNameDisplay //FixedTextDisplay "TrkSnd"
 	Touch+Display1Upper|         TrackSendVolumeDisplay
 	

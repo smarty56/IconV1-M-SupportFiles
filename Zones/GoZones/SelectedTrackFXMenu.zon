@@ -1,7 +1,7 @@
 Zone SelectedTrackFXMenu
 
-	OnZoneActivation	SetV1MDisplayColors Yellow
-	OnZoneDeactivation  RestoreV1MDisplayColors
+	OnZoneActivation	OverrideTrackColors Yellow
+	OnZoneDeactivation  RestorereackColors
 	TrackColors 		NoAction //needed for use with SetV1MDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 

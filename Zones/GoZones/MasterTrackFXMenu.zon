@@ -1,7 +1,7 @@
 Zone MasterTrackFXMenu
 
-     OnZoneActivation         SetV1MDisplayColors Blue
-     OnZoneDeactivation       RestoreV1MDisplayColors
+     OnZoneActivation         OverrideTrackColors Blue
+     OnZoneDeactivation       RestoreTrackColors
 	 TrackColors 		NoAction //needed for use with SetV1MDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 

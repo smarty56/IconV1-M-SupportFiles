@@ -1,10 +1,5 @@
 Zone SelectedTrackReceive
 
-	//OnZoneActivation	SetV1MDisplayColors Magenta
-	//OnZoneDeactivation  RestoreV1MDisplayColors
-	//TrackColors NoAction //needed for use with SetXTouchDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
-
-
     Display1Upper|               TrackReceivePrePostDisplay
     Display1Lower|               TrackReceiveNameDisplay
 

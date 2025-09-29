@@ -1,6 +1,6 @@
 Zone SelectedTrackFX
-	OnZoneActivation	SetV1MDisplayColors Magenta
-    OnZoneDeactivation  RestoreV1MDisplayColors
+	OnZoneActivation	OverrideTrackColors Magenta
+    OnZoneDeactivation  RestoreTrackColors
 	TrackColors 		NoAction //needed for use with SetV1MDisplayColors() function in class V1MTrackColors_Midi_FeedbackProcessor
 
 

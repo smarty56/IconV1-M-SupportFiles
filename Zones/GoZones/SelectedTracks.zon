@@ -2,7 +2,6 @@ Zone SelectedTracks
    
 	VUMeter|				 TrackOutputMeterMaxPeakLR
 
-
 	Display1Upper|			TrackPanAutoLeftDisplay
 	Toggle+Display1Upper|	TrackPanAutoRightDisplay
 	Option+Display1Upper|	TrackAutoModeDisplay
